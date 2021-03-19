@@ -9,10 +9,10 @@ This is the demo code in the [kubernetes-incubator](https://github.com/kubernete
 along with the modifications proposed [here](https://github.com/MaZderMind/hostpath-provisioner).
 
 ## Build and Upload
-This is a go project so we need to work through its dependencies.
+This is a, go project so we need to work through its dependencies.
 
 We first [install golang](https://github.com/golang/go/wiki/Ubuntu)
-and make sure `/snap/bin` is in you path 
+and make sure `/snap/bin` is in your path 
 
 
 ```
