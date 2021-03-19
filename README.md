@@ -97,8 +97,6 @@ First make sure to read our [general contribution guidelines](https://fhooeaist.
 
 ## Licence
 
-aistKube Stacks is a redistribution of existing project and is therefore released under the same licenses.
-Have a look at [Jupyter Docker Stacks](https://github.com/jupyter/docker-stacks),
-[alpine-webdav](https://github.com/BytemarkHosting/docker-webdav) and 
-[hostpath-provisioner](https://github.com/juju-solutions/hostpath-provisioner)
-for further details.
+- BSD License [Jupyter Docker Stacks](https://github.com/jupyter/docker-stacks)
+- MIT License [alpine-webdav](https://github.com/BytemarkHosting/docker-webdav)
+- Apache License Version 2.0 [hostpath-provisioner](https://github.com/juju-solutions/hostpath-provisioner)
