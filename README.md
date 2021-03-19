@@ -69,7 +69,7 @@ Available commands
 ## Usage
 
 1. Build this project and push it to your registry (public or private)
-1. Use the [aistKube](https://github.com/FHOOEAIST/aist-kube) to deploy the images as helm charts
+2. Use the [aistKube](https://github.com/FHOOEAIST/aist-kube) to deploy the images as helm charts
 
 ## Jupyter Notebook Deprecation Notice
 
@@ -90,10 +90,6 @@ This change is tracked in the issue [#1217](https://github.com/jupyter/docker-st
 - [Jupyter Discourse Q&A](https://discourse.jupyter.org/c/questions)
 - [Jupyter Website](https://jupyter.org)
 - [Images on DockerHub](https://hub.docker.com/u/jupyter)
-
-## FAQ
-
-Nothing for the moment
 
 ## Contributing
 
