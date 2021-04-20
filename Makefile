@@ -12,6 +12,10 @@ ifeq ($(BASEIMAGE),pytorch)
 BASE=nvcr.io/nvidia/pytorch:20.12-py3
 TAG=cuda-pytorch
 FILE=Dockerfile
+else ifeq ($(BASEIMAGE),pytorchlightning)
+BASE=nvcr.io/nvidia/tensorflow:20.12-tf2-py3
+TAG=cuda-pytorchlightning
+FILE=Dockerfile_lightning
 else
 BASE=nvcr.io/nvidia/tensorflow:20.12-tf2-py3
 TAG=cuda-tf
