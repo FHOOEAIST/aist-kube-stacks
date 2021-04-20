@@ -6,18 +6,26 @@ aistKube Stacks is based on the following projects:
 * [Jupyter Docker Stacks](https://github.com/jupyter/docker-stacks) 
   provides the base for the jupyter notebooks
   * BSD License (also known as New or Revised or 3-Clause BSD)
+  * Folders:
+    * main project folder
+    * [base-notebook](base-notebook)
+    * [minimal-notebook](minimal-notebook)
+    * [scipy-notebook](scipy-notebook)
 * [alpine-webdav](https://github.com/BytemarkHosting/docker-webdav)
   provides the base for the webdav image
   * MIT License
+  * Folder: [alpine-webdav](alpine-webdav)
 * [hostpath-provisioner](https://github.com/juju-solutions/hostpath-provisioner)
   provides the base for the custom storage provisioning
   * Apache License Version 2.0
+  * Folder: [hostpath-provisioner](hostpath-provisioner)
   
 ## Differences
 
 ### Jupyter Docker Stacks
 
 The following builds are kept: `base-notebook, minimal-notebook, scipy-notebook`.
+All other builds are no interest to this build.
 The base of the images is changed to fit the nvidia images which provide
 cuda with TensorFlow and PyTorch. The base image is required to utilize 
 Nvidia GTX 30xx gpus.
@@ -65,6 +73,19 @@ Available commands
 * `make build/base-notebook BASEIMAGE=pytorch` to build one image only with PyTorch base
 * `make push/alpine-webdav` to push one image only
 * `make img-rm` to remove all images that are related to this project and all dangling images
+* `make help` provides the following print out:
+  ```aidl
+  aist/docker-stacks
+  =====================
+  Replace % with a stack directory name (e.g., make build/minimal-notebook)
+  
+  build-all                      build all stacks
+  build/%                        build the latest image for a stack
+  img-rm                         remove jupyter images
+  pull-base                      pull a jupyter image
+  push-all                       push all tagged images
+  push/%                         push all tags for a jupyter image
+  ```
 
 ## Usage
 
