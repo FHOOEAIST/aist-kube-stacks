@@ -1,6 +1,6 @@
 # Copyright (c) Jupyter Development Team.
 # Distributed under the terms of the Modified BSD License.
-ARG BASE_TAG=cuda-tf
+ARG BASE_TAG=cuda-pytorchlightning
 ARG OWNER=aist
 ARG BASE_CONTAINER=base-notebook
 FROM $OWNER/$BASE_CONTAINER-$BASE_TAG
