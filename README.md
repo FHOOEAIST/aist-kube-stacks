@@ -5,7 +5,7 @@
 aistKube Stacks is based on the following projects:
 * [Jupyter Docker Stacks](https://github.com/jupyter/docker-stacks) 
   provides the base for the jupyter notebooks
-  * BSD License (also known as New or Revised or 3-Clause BSD) (see [licence section](https://github.com/FHOOEAIST/aist-kube-stacks/tree/8-licence-update#licence))
+  * BSD License (also known as New or Revised or 3-Clause BSD) (see [licence section](#licence))
   * Folders:
     * main project folder
     * [base-notebook](base-notebook)
@@ -13,11 +13,11 @@ aistKube Stacks is based on the following projects:
     * [scipy-notebook](scipy-notebook)
 * [alpine-webdav](https://github.com/BytemarkHosting/docker-webdav)
   provides the base for the webdav image
-  * MIT License (see [licence section](https://github.com/FHOOEAIST/aist-kube-stacks/tree/8-licence-update#licence))
+  * MIT License (see [licence section](#licence))
   * Folder: [alpine-webdav](alpine-webdav)
 * [hostpath-provisioner](https://github.com/juju-solutions/hostpath-provisioner)
   provides the base for the custom storage provisioning 
-  * Apache License Version 2.0 (see [licence section](https://github.com/FHOOEAIST/aist-kube-stacks/tree/8-licence-update#licence))
+  * Apache License Version 2.0 (see [licence section](#licence))
   * Folder: [hostpath-provisioner](hostpath-provisioner)
   
 ## Differences
