@@ -5,7 +5,7 @@
 aistKube Stacks is based on the following projects:
 * [Jupyter Docker Stacks](https://github.com/jupyter/docker-stacks) 
   provides the base for the jupyter notebooks
-  * BSD License (also known as New or Revised or 3-Clause BSD)
+  * BSD License (also known as New or Revised or 3-Clause BSD) (see [licence section](https://github.com/FHOOEAIST/aist-kube-stacks/tree/8-licence-update#licence))
   * Folders:
     * main project folder
     * [base-notebook](base-notebook)
@@ -13,11 +13,11 @@ aistKube Stacks is based on the following projects:
     * [scipy-notebook](scipy-notebook)
 * [alpine-webdav](https://github.com/BytemarkHosting/docker-webdav)
   provides the base for the webdav image
-  * MIT License
+  * MIT License (see [licence section](https://github.com/FHOOEAIST/aist-kube-stacks/tree/8-licence-update#licence))
   * Folder: [alpine-webdav](alpine-webdav)
 * [hostpath-provisioner](https://github.com/juju-solutions/hostpath-provisioner)
-  provides the base for the custom storage provisioning
-  * Apache License Version 2.0
+  provides the base for the custom storage provisioning 
+  * Apache License Version 2.0 (see [licence section](https://github.com/FHOOEAIST/aist-kube-stacks/tree/8-licence-update#licence))
   * Folder: [hostpath-provisioner](hostpath-provisioner)
   
 ## Differences
@@ -118,6 +118,8 @@ First make sure to read our [general contribution guidelines](https://fhooeaist.
 
 ## Licence
 
-- BSD License [Jupyter Docker Stacks](https://github.com/jupyter/docker-stacks)
-- MIT License [alpine-webdav](https://github.com/BytemarkHosting/docker-webdav)
-- Apache License Version 2.0 [hostpath-provisioner](https://github.com/juju-solutions/hostpath-provisioner)
+| Origin | Licence | Filepath | Directory Coverage |
+|-|-|-|-|
+| [Jupyter Docker Stacks](https://github.com/jupyter/docker-stacks) | BSD License | [Licence-File](LICENSE.md) | [Main](#) folder except [alpine-webdav](alpine-webdav) and [hostpath-provisioner](hostpath-provisioner) |
+| [alpine-webdav](https://github.com/BytemarkHosting/docker-webdav) | MIT License | [Licence-File](alpine-webdav/LICENSE) | Subfolder [alpine-webdav](alpine-webdav) |
+| [hostpath-provisioner](https://github.com/juju-solutions/hostpath-provisioner) | Apache License Version 2.0 | [Licence-File](hostpath-provisioner/LICENSE-2.0.txt) | Subfolder [hostpath-provisioner](hostpath-provisioner) | 
